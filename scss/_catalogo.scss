@@ -1,0 +1,80 @@
+/*****************************************
+CATALOGO
+*****************************************/
+
+.catalogo-container{
+  display: flex;
+  flex-flow: row wrap;
+  //display:inline-bock;
+  
+  .thumb-container{
+    //display:inline-block;
+    //margin:0;
+    //padding:0;
+    max-width: $item-catalogo;
+    width: 20%;    
+    
+    @include mq(item4){
+      width: 25%;
+    };
+    @include mq(item3){
+      width: 33.33%;
+    };
+    @include mq(item2){
+      width: 50%;
+    };   
+    
+  }
+}
+
+.thumbnail{
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  position:relative;
+  
+  .caption{
+    position: absolute;
+    z-index: 250;
+    top: 40%;
+    padding: 1em;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  &:before{
+    content: '';
+    position: absolute;
+    background-color: darkblue;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 150;
+    //display:none;
+    opacity: 0;
+    transition: all 0.3s ease; 
+  }
+  
+  &:hover{
+    
+    .caption{
+      opacity: 1;
+      transition: all 0.3s ease;
+    }
+    
+    &:before{
+      //display: block;
+      opacity: 0.45;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+.text-caption{
+  font-size: 1.125em;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}

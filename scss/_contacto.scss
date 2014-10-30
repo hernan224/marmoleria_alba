@@ -1,0 +1,30 @@
+//@import "compass/css3";
+
+/*****************************************
+CONTACTO
+*****************************************/
+
+.embed-responsive.embed-responsive-16by9{
+  padding-bottom: 41%;
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.formulario--contacto{
+  padding: 2em;
+}
+
+.contacto--texto{
+  padding-left: 2em; 
+}
+
+.contacto--datos{
+  padding-top: 2em;
+}

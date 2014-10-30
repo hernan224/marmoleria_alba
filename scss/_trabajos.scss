@@ -1,0 +1,27 @@
+//@import "compass/css3";
+
+/*****************************************
+TRABAJOS
+*****************************************/
+
+.trabajos{
+  p.h4{
+    text-align: center;
+  }
+
+  .thumbnail{
+    min-height: 250px;
+    
+    @include mq(phone){
+      min-height: 220px;
+    }
+
+    &:before{
+      background-color: transparent;
+    }
+  }
+  
+  section{
+    margin: 2rem 0;
+  }
+}

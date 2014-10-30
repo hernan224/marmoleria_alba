@@ -1,0 +1,16 @@
+@import "compass/css3";
+
+/*****************************************
+Modificar Header - navegación y Footer en:
+http://codepen.io/hernan224/pen/cKLIv
+*****************************************/
+
+.texto--la_empresa{
+  padding: 2em;
+  @include column-count(2);
+  @include column-gap(3em);
+  
+  @include mq(tablet){
+    @include column-count(1);  
+  }
+}
