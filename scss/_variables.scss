@@ -1,13 +1,27 @@
-///** VARIABLES **/
-//media breakpoints
-//$hd: 1190px;
-$pantalla: 990px;
+/* VARIABLES
+ * ============================== */
+
+/* Colors */
+
+$blue:         #2B6FD1;
+$dark-grey:    #666666;
+$grey:         #95A5A6;
+$light-grey:   #F5F5F3;
+$white:        #fff;
+
+/* Typography */
+
+$serif: Bitter, serif;
+$sans-serif: Raleway, Helvetica, sans-serif;
+
+
+/* Screen media breakpoints */
+$desktop: 1030px;
 $tablet: 768px;
 $phone: 481px;
 
+/* Catálogo */
 $item-catalogo: 200px;
-
-//$items5: $pantalla;
-$items4: $pantalla;
-$items3: 3*$item-catalogo;
-$items2: 2*$item-catalogo;
+$items-2: 2*$item-catalogo;
+$items-3: 3*$item-catalogo;
+$items-4: $desktop;

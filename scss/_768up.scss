@@ -1,0 +1,119 @@
+/* STRUCTURE
+ * ============================== */
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* HEADER
+ * ============================== */
+
+#header-container {
+  background: $white;
+}
+
+#logo {
+  
+    a {
+        margin: 0;
+    }
+}
+
+/* Nav */
+
+#logo {
+    float: left;
+}
+
+#navbar {
+    float: right;
+}
+
+#nav {
+    display: block;
+    margin: 36px 0;
+    
+    li {
+        display: inline-block;
+    }
+    
+    a {
+        color: $grey;
+        font-family: $sans-serif;
+        font-size: 1.125em;
+        font-weight: 300;
+    }
+    
+    .dropdown {
+        position: relative;
+        
+        &>.submenu {
+            display: none;
+        }
+        
+        &:hover,
+        &focus {
+            &>.submenu {
+            	  background: $white;
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 3.3em;
+                padding: 0;
+                margin: 0;
+                z-index: 999;
+                min-width: 200px;
+                
+                a {
+                	  clear: both;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+.tinynav {
+	  display: none;
+}
+
+/* Main
+ * ============================== */
+
+.page-content {
+    
+    .text-columns {
+    	  -webkit-columns: 2 435px;
+           -moz-columns: 2 435px;
+                columns: 2 435px;
+    }
+}
+
+/* Contact form */
+
+textarea {
+    height: 170px;
+}
+
+input[type="submit"] {
+	  float: right;
+    width: auto;
+    padding: 10px 20px;
+}
+
+/* Footer
+ * ============================== */
+
+#footer {
+    margin-bottom: 20px;
+    text-align: left;
+    
+    .copyright {
+        float: left;
+    }
+    
+    .made-by {
+        float: right; 
+    }
+}

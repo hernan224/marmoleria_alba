@@ -1,16 +1,16 @@
 ///** MIXINS **/
 @mixin mq($point) {
-  @if $point == item4 {
-    @media (max-width: $items4) { @content; }
+  @if $point == item-4 {
+    @media (max-width: $items-4) { @content; }
   }
-  @else if $point == item3 {
-    @media (max-width: $items3) { @content; }
+  @else if $point == item-3 {
+    @media (max-width: $items-3) { @content; }
   }
-  @else if $point == item2 {
-    @media (max-width: $items2)  { @content; }
+  @else if $point == item-2 {
+    @media (max-width: $items-2)  { @content; }
   }
-  @else if $point == pantalla {
-    @media (max-width: $pantalla)  { @content; }
+  @else if $point == desktop {
+    @media (max-width: $desktop)  { @content; }
   }
   @else if $point == tablet {
     @media (max-width: $tablet) { @content; }

@@ -1,0 +1,418 @@
+/*! Based on HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: $dark-grey;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid $grey;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: $blue;
+    color: $white;
+    padding: 0.2em 0;
+}
+
+/* GLOBAL
+ * ============================== */
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6{
+	  color: $dark-grey;
+    font-family: $serif;
+    font-weight: 700;
+}
+
+figure {
+    margin: 0;
+}
+
+
+/* STRUCTURE
+ * ============================== */
+
+body {
+	  background: $light-grey;
+    border-top: 8px solid $blue;
+    color: $dark-grey;
+    font: 16px/26px $sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* HEADER
+ * ============================== */
+
+#header-container {
+    background: $blue;
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+    
+    a {
+        background: url(../img/header-logo.png) center center;
+        display: block;
+        width: 200px;
+        height: 120px;
+        margin: 0 auto;
+      }
+}
+
+/* Menu */
+
+.tinynav {
+	  display: block;
+}
+
+#nav {
+	  display: none;
+}
+
+/* Main
+ * ============================== */
+
+.main-container {
+    background: $light-grey;
+}
+
+.main {
+    padding: 60px 0 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.page-content {
+    background: $white;
+    border-top: 2px solid $blue;
+    margin-bottom: 30px;
+    padding: 24px;
+    
+    &:last-child {
+        margin: 0;
+    }
+    
+    h2 {
+    	  color: $blue;
+        font-size: 1.500em;
+        margin: 0 0 24px 0;
+    }
+    
+    h3 {
+        margin-top: 0;
+    }
+    
+    .text-columns {
+    	  -webkit-columns: 1 768px;
+    	     -moz-columns: 1 768px;
+                columns: 1 768px;
+    }
+}
+
+.page-section {
+    margin-top: 20px;
+}
+
+.pagination {
+	  margin: 30px 0 0 0;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+#featured-content {
+	
+	  .featured-box {
+	  	  margin-bottom: 20px;
+	  }
+	  
+	  figure {
+	  	  margin: 0;
+	      width: 100%;
+	      height: 100%;
+	  }
+	  
+	  .featured-text {
+	      background: $white;
+	      padding: 20px;
+	      text-align: center;
+	      width: 100%;
+	      
+	      h4 {
+	          color: $blue;
+	      }
+	      
+	      span {
+	      	  color: $grey;
+	          font-family: $sans-serif;
+	          font-wight: 300;
+	      }
+	  }
+}
+
+/* Catalog */
+
+.catalogo-container{
+  display: flex;
+  flex-flow: row wrap;
+  
+  .thumb-container{
+    max-width: $item-catalogo;
+    width: 20%;    
+    
+    @include mq(item-4){
+      width: 25%;
+    };
+    @include mq(item-3){
+      width: 33.33%;
+    };
+    @include mq(item-2){
+      width: 50%;
+    };   
+    
+  }
+}
+
+.thumbnail{
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  position:relative;
+  
+  .caption{
+    position: absolute;
+    z-index: 250;
+    top: 40%;
+    padding: 1em;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  &:before{
+    content: '';
+    position: absolute;
+    background-color: darkblue;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 150;
+    opacity: 0;
+    transition: all 0.3s ease; 
+  }
+  
+  &:hover{
+    
+    .caption{
+      opacity: 1;
+      transition: all 0.3s ease;
+    }
+    
+    &:before{
+      opacity: 0.45;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+.text-caption{
+  font-size: 1.125em;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+
+/* Trabajos */
+
+.trabajos {
+  h4{
+    text-align: center;
+  }
+
+  .thumbnail{
+    min-height: 250px;
+    
+    @include mq(phone){
+      min-height: 220px;
+    }
+
+    &:before{
+      background-color: transparent;
+    }
+  }
+}
+
+/* Google Maps */
+
+.embed-responsive,
+.embed-responsive-16by9 {
+    padding-bottom: 41%;
+    margin-bottom: 1.5rem;
+}
+
+/* Contact form */
+
+input[type="text"],
+input[type="email"],
+textarea {
+	  width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    
+    &:focus {
+        outline: none;
+    }
+}
+
+input[type="submit"] {
+	  background: $light-grey;
+	  border: none;
+	  color: $dark-grey;
+    width: 100%;
+    padding: 10px 0;
+    
+    &:hover,
+    &:focus {
+        background: $blue;
+        color: $white;
+    }
+}
+
+/* Footer
+ * ============================== */
+
+#footer {
+	  border-top: 2px solid $blue;
+    background: $light-grey;
+    color: $grey;
+    font-size: 0.875em;
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+    
+    a {
+        color: $grey;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
+    p {
+        margin: 0;
+    }
+}
+
+/* IE Fixes */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
