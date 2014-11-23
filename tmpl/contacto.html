@@ -1,0 +1,88 @@
+<div class="main-container" class="container">
+    <div class="main wrapper row clearfix">
+        <div class="page-content">
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Contacto</h2>
+                    <!--<div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zLkoIiTf_DZ8.kKmb-lNApIiE" width="960" height="360"></iframe>
+                    </div>-->
+                    <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zLkoIiTf_DZ8.kKmb-lNApIiE" width="100%" height="360"></iframe>
+                </div>
+
+                <div class="col-xs-12 page-section">
+                    <h3>Marmolería Alba</h3>
+                </div>
+
+                <div class="col-xs-12 col-sm-6">
+                    <p>Si desea comunicarse con nosotros, puede hacerlo escribiiéndonos a traves del formulario que aparece a continuación.</p>
+                </div>
+
+                <div class="col-xs-12 col-sm-6">
+                    <p>
+                        <span class="h5"><strong>Estados Unidos 61, Bahía Blanca</strong></span><br />
+                        <strong>Tel: </strong>0291 - 4812333<br />
+                        <strong>Email: </strong>marmoleriaalba@speedy.com.ar<br />
+                        <strong>Web: </strong>www.marmoleriaalba.com.ar
+                    </p>
+                </div>
+
+                <section class="col-xs-12">
+                    <h4>Contáctese con nosotros</h4>
+                    <form  name="contactform" method="post" class="row" novalidate>
+
+                        <div class="col-xs-12" ng-show="mostrarMensaje">
+                            <p class="alert" ng-class="{'alert-danger' : !envioOK, 'alert-success' : envioOK}">{{resultadoMensaje}}</p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="form-groupo">
+                                <label for="nombre">Nombre</label><br/>
+                                <input ng-model="formData.nombre" type="text" name="nombre" id="nombre" required/>
+
+                                <p class="alert alert-danger" ng-show="submitted && contactform.nombre.$error.required">
+                                Por favor, ingrese un <strong>Nombre</strong>válido. Este campo es obligatorio.
+                                </p>
+                            </div>
+
+                            <div class="form-groupo">
+                                <label for="asunto">Asunto</label><br/>
+                                <input ng-model="formData.asunto" type="text" name="asunto" id="asunto" required/>
+
+                                <p class="alert alert-danger" ng-show="submitted && contactform.asunto.$error.required">
+                                Por favor, ingrese un <strong>Asunto</strong>válido. Este campo es obligatorio.
+                                </p>
+                            </div>
+
+                            <div class="form-groupo">
+                                <label for="email">Email</label><br/>
+                                <input ng-model="formData.email" type="email" name="email" id="email" required/>
+
+                                <p class="alert alert-danger" ng-show="submitted && (contactform.email.$error.required || contactform.email.$error.email)">
+                                Por favor, ingrese un <strong>Email</strong> válido. Este campo es obligatorio.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="form-groupo">
+                                <label for="mensaje">Mensaje</label> <br/>
+                                <textarea ng-model="formData.mensaje" rows="6" name="mensaje" id="mensaje" required></textarea>
+
+                                <p class="alert alert-danger" ng-show="submitted && contactform.mensaje.$error.required">
+                                Por favor, ingrese un <strong>Mensaje</strong> válido. Este campo es obligatorio.
+                                </p>
+                            </div>
+
+                            <input type="submit" value="Enviar" ng-disabled="submitButtonDisabled" ng-click="submit(contactform)" />
+                        </div>
+
+                    </form>
+                </section>
+            </div>
+        </div> <!-- .page-content -->
+
+    </div> <!-- #main -->
+</div>
