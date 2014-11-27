@@ -8,33 +8,33 @@
                 "path": "/acero_inoxidable",
                 "productos": [
                     {
-                        "nombre": "Articulo 1",
-                        "descripcion": "una descripcion cualquiera",
+                        "nombre": "",
+                        "descripcion": "",
                         "archivo": "01.jpg"
                     },
                     {
-                        "nombre": "Articulo 1",
-                        "descripcion": "una descripcion cualquiera",
+                        "nombre": "",
+                        "descripcion": "",
                         "archivo": "02.jpg"
                     },
                     {
-                        "nombre": "Articulo 1",
-                        "descripcion": "una descripcion cualquiera",
+                        "nombre": "",
+                        "descripcion": "",
                         "archivo": "03.jpg"
                     },
                     {
-                        "nombre": "Articulo 1",
-                        "descripcion": "una descripcion cualquiera",
+                        "nombre": "",
+                        "descripcion": "",
                         "archivo": "04.jpg"
                     },
                     {
-                        "nombre": "Articulo 1",
-                        "descripcion": "Articulo 1",
+                        "nombre": "",
+                        "descripcion": "",
                         "archivo": "05.jpg"
                     },
                     {
-                        "nombre": "Articulo 2",
-                        "descripcion": "una descripcion cualquiera",
+                        "nombre": "",
+                        "descripcion": "",
                         "archivo": "06.jpg"
                     },
                     {
@@ -1315,27 +1315,27 @@
                 "path": "/marmoles",
                 "productos": [
                     {
-                        "nombre": "New Beige",
+                        "nombre": "",
                         "descripcion": "",
                         "archivo": "01-new_beige.jpg"
                     },
                     {
-                        "nombre": "Silver",
+                        "nombre": "",
                         "descripcion": "",
                         "archivo": "02-sivec.jpg"
                     },
                     {
-                        "nombre": "Verde Alpes",
+                        "nombre": "",
                         "descripcion": "",
                         "archivo": "03-verde_alpes.jpg"
                     },
                     {
-                        "nombre": "Estatuario",
+                        "nombre": "",
                         "descripcion": "",
                         "archivo": "04-estatuario.jpg"
                     },
                     {
-                        "nombre": "Verde Tinos",
+                        "nombre": "",
                         "descripcion": "",
                         "archivo": "05-verde_tinos.jpg"
                     },
@@ -1592,21 +1592,21 @@
                 ]
             },
             {
-                "tituloSeccion": "Poffidios",
+                "tituloSeccion": "Pofidos",
                 "path": "/porfidios",
                 "productos": [
                     {
-                        "nombre": "Porfidio Rojo",
+                        "nombre": "",
                         "descripcion": "",
                         "archivo": "01-porfidio_rojo.jpg"
                     },
                     {
-                        "nombre": "Porfidio Nadur",
+                        "nombre": "",
                         "descripcion": "",
                         "archivo": "02-porfidio_nadur.jpg"
                     },
                     {
-                        "nombre": "Porfidio Gris",
+                        "nombre": "",
                         "descripcion": "",
                         "archivo": "03-porfidio_gris.jpg"
                     }

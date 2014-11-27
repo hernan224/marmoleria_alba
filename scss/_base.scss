@@ -64,8 +64,8 @@ figure {
     margin: 0;
 }
 
-iframe {
-    border: none;
+iframe{
+  border: none;
 }
 
 
@@ -83,6 +83,25 @@ body {
     width: 90%;
     margin: 0 5%;
 }
+
+
+
+ .loader{
+        margin: 0 auto;
+        height: 20em;
+        width: 20%;
+        text-align: center;
+        padding: 10em 2em 2em;
+        display: block;
+    }
+
+    /*
+      Set the color of the icon
+    */
+    svg path,
+    svg rect{
+        fill: #2B6FD1;
+    }
 
 /* HEADER
  * ============================== */
@@ -201,11 +220,11 @@ body {
 
 /* Catalog */
 
-.catalogo-container {
+.catalogo-container{
   display: flex;
   flex-flow: row wrap;
   
-  .thumb-container {
+  .thumb-container{
     max-width: $item-catalogo;
     width: 20%;    
     
@@ -222,14 +241,14 @@ body {
   }
 }
 
-.thumbnail {
+.thumbnail{
   margin: 0;
   padding: 0;
   border: none;
   border-radius: 0;
-  position: relative;
+  position:relative;
   
-  .caption {
+  .caption{
     position: absolute;
     z-index: 250;
     top: 40%;
@@ -238,9 +257,10 @@ body {
     transition: all 0.3s ease;
   }
   
-  &:before {
+  &:before{
     content: '';
     position: absolute;
+    background-color: $blue;
     top: 0;
     bottom: 0;
     left: 0;
@@ -250,7 +270,7 @@ body {
     transition: all 0.3s ease; 
   }
   
-  &:hover {
+  &:hover{
     
     .caption{
       opacity: 1;
@@ -258,13 +278,13 @@ body {
     }
     
     &:before{
-      opacity: 0.45;
+      opacity: 0.5;
       transition: all 0.3s ease;
     }
   }
 }
 
-.text-caption {
+.text-caption{
   font-size: 1.125em;
   font-weight: 700;
   text-align: center;
@@ -274,24 +294,36 @@ body {
 /* Trabajos */
 
 .trabajos {
-  h4 {
+  h4{
     text-align: center;
-    
-    &:hover {
-        color: $blue;
-        text-decoration: none;
-    }
+      transition: all 0.2s ease;
   }
 
-  .thumbnail {
+  .thumbnail{
     min-height: 250px;
+      margin-bottom: 1em;
+      transition: color 0.2s ease;
     
     @include mq(phone){
       min-height: 220px;
     }
 
-    &:before {
+    &:before{
       background-color: transparent;
+    }
+      
+    &:hover{
+        border-bottom: 2px solid $blue;
+        //background-color: darken($light-grey, 5%);
+        text-decoration: none;
+        transition: all 0.2s ease;
+        
+        h4{
+            color: $blue;
+            border: none;
+            transition: color 0.2s ease;
+        }
+    
     }
   }
 }

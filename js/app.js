@@ -243,6 +243,22 @@ marmoleriaApp.directive('tinyNav', function(){
 });
 
 
+marmoleriaApp.directive('owlCarousel', function(){
+    return{
+        restrict: 'A',
+        link: function(scope, element, attrs){
+
+            jQuery(element).owlCarousel({
+                singleItem: true,
+                navigation: true,
+                responsive: true
+            });
+        }
+    };
+
+});
+
+
 marmoleriaApp.directive('backImg', function(){
     return function(scope, element, attrs){
         var url = attrs.backImg;
