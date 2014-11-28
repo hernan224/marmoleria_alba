@@ -181,6 +181,15 @@ body {
 
 .pagination {
 	  margin: 30px 0 0 0;
+
+      a {
+        color: $blue !important;
+      }
+
+      .active a {
+        background: $blue !important;
+        color: #fff !important;
+      }
 }
 
 .main aside {
@@ -260,7 +269,7 @@ body {
   &:before{
     content: '';
     position: absolute;
-    background-color: $blue;
+    background-color: $white;
     top: 0;
     bottom: 0;
     left: 0;

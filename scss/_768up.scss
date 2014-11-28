@@ -69,7 +69,7 @@
         }
         
         &:hover,
-        &focus {
+        &:focus {
             &>.submenu {
             	  
                 display: block;
@@ -104,6 +104,16 @@
 
 /* Main
  * ============================== */
+
+.home-hero {
+    
+    overflow: hidden;
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
 
 .page-content {
     
