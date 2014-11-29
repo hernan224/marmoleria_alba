@@ -126,7 +126,17 @@ body {
 /* Menu */
 
 .tinynav {
-	  display: block;
+    display: block;
+    width: 100%;   
+    padding: 0.5em 1em;
+    color: #2B6FD1;
+    font-weight: 700;
+    //background-color: darken($light-grey, 5%);
+    border: none;
+    
+    option{
+        padding: 0.5em 1em;
+    }
 }
 
 #nav {
@@ -200,7 +210,21 @@ body {
 #featured-content {
 	
 	  .featured-box {
-	  	  margin-bottom: 20px;
+	  	  margin: 0 auto 20px;
+          max-width: 480px;
+          
+          &:hover{
+              text-decoration: none;
+              
+              .featured-text{
+                  background-color: darken($light-grey, 5%);
+                  
+                  h4,
+                  span{
+                      color: $blue;                      
+                  }
+              }
+          }
 	  }
 	  
 	  figure {
