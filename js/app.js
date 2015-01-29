@@ -264,8 +264,9 @@ marmoleriaApp.directive('backImg', function(){
         var url = attrs.backImg;
         element.css({
             'background-image': 'url(' + url +')',
-            'background-size' : 'cover',
+            'background-size' : 'contain',
             'background-position' : 'center center',
+            'background-repeat' : 'no-repeat',
             'height' : '200px',
             'width' : '200px'
 
