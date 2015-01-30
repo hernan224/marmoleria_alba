@@ -44,7 +44,22 @@
                   <ul id="nav" class="nav" tiny-nav>
                       <li ng-class="{ active: isActive('', 1)}"><a href="#">Inicio</a></li>
                       <li ng-class="{ active: isActive('empresa', 1)}"><a href="#empresa">La empresa</a></li>
-                      <li ng-class="{ active: isActive('trabajos', 1)}"><a href="#trabajos">Trabajos</a></li>
+                      <li ng-class="{ active: isActive('trabajos', 1)}" class="dropdown"><a href="">Trabajos <span class="caret"></span></a>
+                          <ul class="nav submenu">
+                              <li><a href="#trabajos/3">Mesadas</a></li>
+                              <li><a href="#trabajos/4">Vanitorys</a></li>
+                              <li><a href="#trabajos/5">Escaleras</a></li>
+                              <li><a href="#trabajos/7">Pisos</a></li>
+                              <li><a href="#trabajos/6">Revestimientos</a></li>
+                              <li><a href="#trabajos/9">Grabados en Mármol</a></li>
+                              <li><a href="#trabajos/2">Placas de Bronce</a></li>
+                              <li><a href="#trabajos/1">Restauraciones</a></li>
+                              <li><a href="#trabajos/8">Nichos</a></li>
+                              <li><a href="#trabajos/10">Monumentos</a></li>
+                              <li><a href="#trabajos/0">Monumentos Especiales</a></li>
+                              <li><a href="#trabajos/11">Otros Trabajos</a></li>
+                          </ul>
+                      </li>
                       <li ng-class="{ active: isActive('marmoleria', 2)}" class="dropdown"><a href="">Marmoleria <span class="caret"></span></a>
                           <ul class="nav submenu">
                               <li><a href="#catalogo/marmoleria/0">Granitos Nacionales</a></li>

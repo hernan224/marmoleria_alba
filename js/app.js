@@ -31,7 +31,7 @@ marmoleriaApp.config(function ($routeProvider) {
             templateUrl : 'tmpl/empresa.html'
             //controller 	: 'aboutController'
         })
-        .when('/trabajos', {
+        .when('/trabajos/:id', {
             templateUrl : 'tmpl/trabajos.html',
             controller : 'TrabajosCtrl',
             resolve : {
@@ -72,7 +72,7 @@ marmoleriaApp.config(function ($routeProvider) {
 
 /*** CONTROLADORES ***/
 
-marmoleriaApp.controller("HeaderCtrl", function($rootScope, $scope, $location){
+marmoleriaApp.controller("HeaderCtrl", function($rootScope, $scope, $location, testActivoService){
 
     $rootScope.$on("$routeChangeError", function () {
         $location.path('/404');
@@ -80,22 +80,13 @@ marmoleriaApp.controller("HeaderCtrl", function($rootScope, $scope, $location){
 
 
     $scope.isActive = function (viewLocation, indice) {
-
-        var pathArray = $location.path().split('/');
-
-        if (viewLocation === pathArray[indice]){
-            var activo = true;
-        }else{
-            var activo = false;
-        }
-
-        return activo;
+      return testActivoService.testUrl(viewLocation, indice);
     };
 
 });
 
 
-marmoleriaApp.controller("CatalogoCtrl", function ($scope, $location, $routeParams, catalogo) {
+marmoleriaApp.controller("CatalogoCtrl", function ($scope, $location, $routeParams, catalogo, testActivoService) {
 
     $scope.cat = catalogo.data;
 
@@ -107,8 +98,10 @@ marmoleriaApp.controller("CatalogoCtrl", function ($scope, $location, $routePara
 
         if ($scope.seccionID === 'marmoleria'){
             $scope.seccion = $scope.cat.marmoleria;
+            $scope.navMarmoleria = true;
         }else{
             $scope.seccion = $scope.cat.bronceria;
+            $scope.navMarmoleria = false;
         }
 
         $scope.subSeccion = $scope.seccion.secciones[$scope.subSecID];
@@ -130,6 +123,11 @@ marmoleriaApp.controller("CatalogoCtrl", function ($scope, $location, $routePara
         $location.path('/404');
     }
 
+    $scope.isActive = function (viewLocation, indice) {
+        return testActivoService.testUrl(viewLocation, indice);
+    };
+
+
 
     $scope.mostrarProducto = function(url, titulo){
         jQuery.fancybox.open({
@@ -141,23 +139,52 @@ marmoleriaApp.controller("CatalogoCtrl", function ($scope, $location, $routePara
 });
 
 
-marmoleriaApp.controller("TrabajosCtrl", function($scope, trabajos){
+marmoleriaApp.controller("TrabajosCtrl", function($scope, $location, $routeParams, trabajos, testActivoService){
+
+    $scope.seccionID = $routeParams.id;
 
     $scope.listaTrabajos = trabajos.data;
 
     $scope.urlGeneral = 'img/trabajos/';
 
-    $scope.mostrarTrabajos = function(url, lista){
-        var listaFotos = [];
+    $scope.seccion = $scope.listaTrabajos.trabajos[$scope.seccionID];
 
-        angular.forEach(lista, function(value) {
-            this.push(url + value);
-        }, listaFotos);
+    if (angular.isObject($scope.seccion)){
 
-        jQuery.fancybox.open(listaFotos);
+        $scope.trabajo = {
+            tituloSeccion : $scope.seccion.titulo,
+            //tituloPadre : $scope.seccion.titulo,
+            urlTrabajo : $scope.urlGeneral + $scope.seccion.path,
+            rel :  $scope.seccion.rel,
+            listado : $scope.seccion.archivos
+        }
 
+    }else{
+        $location.path('/404');
+
+    }
+
+    $scope.mostrarProducto = function(url){
+        jQuery.fancybox.open({
+            href: url
+            //rel: rel
+        });
+    }
+
+    //$scope.mostrarTrabajos = function(url, lista){
+    //    var listaFotos = [];
+    //
+    //    angular.forEach(lista, function(value) {
+    //        this.push(url + value);
+    //    }, listaFotos);
+    //
+    //    jQuery.fancybox.open(listaFotos);
+    //
+    //};
+
+    $scope.isActive = function (viewLocation, indice) {
+        return testActivoService.testUrl(viewLocation, indice);
     };
-
 
 });
 
@@ -312,4 +339,25 @@ marmoleriaApp.factory('trabajosService', function($http) {
     }
 
     return lista;
+});
+
+marmoleriaApp.factory('testActivoService', function($rootScope, $location){
+
+    var probarActivo = {};
+
+    probarActivo.testUrl = function (viewLocation, indice) {
+
+        var pathArray = $location.path().split('/');
+
+        if (viewLocation === pathArray[indice]){
+            var activo = true;
+        }else{
+            var activo = false;
+        }
+
+        return activo;
+    };
+
+    return probarActivo
+
 });

@@ -3,41 +3,47 @@
 
   <!--<h1 class="h2">Trabajos</h1> -->
 
-          <section class="page-content trabajos">
-              <h2>Trabajos en marmolería</h2>
+          <section class="page-content">
+              <h2>Trabajos <span class="h4"> <i class="glyphicon glyphicon-chevron-right"></i> <strong>{{trabajo.tituloSeccion}}</strong></span></h2>
 
-            <div class="trabajos-marmoleria row">
+              <nav class="nav-secundaria">
+                  <ul class="nav nav-tabs">
+                      <li ng-class="{ active: isActive('3', 2)}"><a href="#trabajos/3">Mesadas</a></li>
+                      <li ng-class="{ active: isActive('4', 2)}"><a href="#trabajos/4">Vanitorys</a></li>
+                      <li ng-class="{ active: isActive('5', 2)}"><a href="#trabajos/5">Escaleras</a></li>
+                      <li ng-class="{ active: isActive('7', 2)}"><a href="#trabajos/7">Pisos</a></li>
+                      <li ng-class="{ active: isActive('6', 2)}"><a href="#trabajos/6">Revestimientos</a></li>
+                      <li ng-class="{ active: isActive('9', 2)}"><a href="#trabajos/9">Grabados en Mármol</a></li>
+                      <li ng-class="{ active: isActive('2', 2)}"><a href="#trabajos/2">Placas de Bronce</a></li>
+                      <li ng-class="{ active: isActive('1', 2)}"><a href="#trabajos/1">Restauraciones</a></li>
+                      <li ng-class="{ active: isActive('8', 2)}"><a href="#trabajos/8">Nichos</a></li>
+                      <li ng-class="{ active: isActive('10', 2)}"><a href="#trabajos/10">Monumentos</a></li>
+                      <li ng-class="{ active: isActive('0', 2)}"><a href="#trabajos/0">Monumentos Especiales</a></li>
+                      <li ng-class="{ active: isActive('11', 2)}"><a href="#trabajos/11">Otros Trabajos</a></li>
+                  </ul>
 
-              <div class="col-xs-6 col-sm-4" ng-repeat="trabajo in listaTrabajos.marmoleria">
+              </nav>
 
-                  <a href="" ng-click="mostrarTrabajos(urlGeneral + trabajo.path, trabajo.archivos)"  class="thumbnail" >
-                  <img back-img="{{urlGeneral + trabajo.path + trabajo.thumb}}" alt="" class="img-responsive" />
-                    <h4>{{trabajo.titulo}}</h4>
-                </a>
+              <div class="catalogo-container">
 
+                  <div class="thumb-container" ng-repeat="archivo in trabajo.listado">
+                      <a href="" ng-click="mostrarProducto(trabajo.urlTrabajo + archivo)" class="thumbnail" rel="{{trabajos.rel}}" >
+
+                          <img back-img="{{trabajo.urlTrabajo + archivo}}" alt="" class="img-responsive" />
+
+                          <!--<span class="foto-producto" back-img="{{catalogo.urlGeneral + producto.archivo}}"></span>-->
+
+                      <!--<span class="caption" ng-hide="producto.nombre === ''">-->
+                        <!--<p class="text-caption">{{producto.nombre}}</p>-->
+                      <!--</span>-->
+
+                      </a>
+                  </div>
               </div>
 
-            </div>
-
           </section>
 
-          <section class="page-content trabajos">
-              <h2>Trabajos en broncería</h2>
 
-                <div class="trabajos-bronceria row">
-
-                    <div class="col-xs-6 col-sm-4" ng-repeat="trabajo in listaTrabajos.bronceria">
-
-                        <a href="" ng-click="mostrarTrabajos(urlGeneral + trabajo.path, trabajo.archivos)" class="thumbnail" >
-                            <img back-img="{{urlGeneral + trabajo.path + trabajo.thumb}}" alt="" class="img-responsive" />
-                            <h4>{{trabajo.titulo}}</h4>
-                        </a>
-
-                    </div>
-
-                </div>
-
-          </section>
 
     </div> <!-- #main -->
 </div> <!-- #main-container -->
