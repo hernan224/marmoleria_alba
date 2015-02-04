@@ -361,6 +361,40 @@ body {
   }
 }
 
+/* FancyBox */
+
+.fancybox-skin {
+  background: none;
+  border-radius: none;
+  padding: 0 !important;
+}
+
+.fancybox-opened .fancybox-skin {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+.fancybox-title {
+  font: $serif;
+}
+
+.fancybox-title-float-wrap {
+  bottom: none;
+  margin-bottom: 0;
+}
+
+  .fancybox-title-float-wrap .child {
+    background: $blue;
+    border-radius: 0;
+    text-shadow: none;
+    font-weight: 700;
+  }
+
+  .fancybox-title-float-wrap h5 {
+    color: $white;
+  }
+
 /* Google Maps */
 
 .embed-responsive,

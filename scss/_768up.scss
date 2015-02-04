@@ -124,6 +124,27 @@
     }
 }
 
+.nav-secundaria {
+    background: $light-grey;
+    margin-bottom: 10px;
+
+    .nav-tabs {
+        border: none;
+
+        li.active>a {
+            background: $light-grey !important;
+        }
+    }
+
+    a {
+        border: none !important;
+        border-radius: 0 !important;
+        font-size: 14px;
+        margin-right: 0;
+        padding: 10px !important;
+    }
+}
+
 /* Contact form */
 
 textarea {
@@ -131,7 +152,7 @@ textarea {
 }
 
 input[type="submit"] {
-	  float: right;
+	float: right;
     width: auto;
     padding: 10px 20px;
 }
