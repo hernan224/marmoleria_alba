@@ -284,7 +284,7 @@ body {
   .caption{
     position: absolute;
     z-index: 250;
-    top: 40%;
+    top: 25%;
     padding: 1em;
     opacity: 0;
     transition: all 0.3s ease;
@@ -307,21 +307,22 @@ body {
     
     .caption{
       opacity: 1;
-      transition: all 0.3s ease;
+      transition: all 0.3s ease-in 0.2s;
     }
     
     &:before{
-      opacity: 0.5;
+      opacity: 0.75;
       transition: all 0.3s ease;
     }
   }
 }
 
 .text-caption{
-  font-size: 1.125em;
+  font-size: 1.1em;
+  line-height: 1.125;
   font-weight: 700;
   text-align: center;
-  color: #fff;
+  color: $blue;
 }
 
 /* Trabajos */
@@ -363,6 +364,28 @@ body {
 
 /* FancyBox */
 
+.fancybox-close{
+  top: 0;
+  right: -36px;
+  background: none $blue;
+  font-size: 36px;
+  color: #FFFFFF;
+  line-height: 1;
+  text-align: center;
+  transition: color 0.2s ease;
+
+
+  &:before{
+    content:"\00d7";
+  }
+
+  &:hover{
+    text-decoration: none;
+    color: rgba(#ffffff, 0.6);
+    transition: color 0.2s ease;
+  }
+}
+
 .fancybox-skin {
   background: none;
   border-radius: none;
@@ -380,8 +403,8 @@ body {
 }
 
 .fancybox-title-float-wrap {
-  bottom: none;
-  margin-bottom: 0;
+  bottom: auto;
+  margin-top: 0;
 }
 
   .fancybox-title-float-wrap .child {

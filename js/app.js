@@ -130,10 +130,17 @@ marmoleriaApp.controller("CatalogoCtrl", function ($scope, $location, $routePara
 
 
     $scope.mostrarProducto = function(url, titulo){
-        jQuery.fancybox.open({
-            href: url,
-            title: titulo
-        });
+
+        if (titulo !== "<h5></h5>"){
+            jQuery.fancybox.open({
+                href: url,
+                title: titulo
+            });
+        }else{
+            jQuery.fancybox.open({
+                href: url
+            });
+        }
     }
 
 });

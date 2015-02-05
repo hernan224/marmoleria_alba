@@ -1788,58 +1788,58 @@
         "path": "/molduras",
         "productos": [
           {
-            "nombre": "Moldura francesa o pecho paloma",
-            "descripcion": "",
+            "nombre": "",
+            "descripcion": "Moldura francesa o pecho paloma",
             "archivo": "01.png"
           },
           {
-            "nombre": "Canto con cuarto de caña",
-            "descripcion": "",
+            "nombre": "",
+            "descripcion": "Canto con cuarto de caña",
             "archivo": "02.png"
           },
           {
-            "nombre": "Canto Media Caña",
-            "descripcion": "",
+            "nombre": "",
+            "descripcion": "Canto Media Caña",
             "archivo": "03.png"
           },
           {
-            "nombre": "Canto con inglete superior o inferior",
-            "descripcion": "",
+            "nombre": "",
+            "descripcion": "Canto con inglete superior o inferior",
             "archivo": "04.png"
           },
           {
-            "nombre": "Canto con inglete y media caña Superior o Inferior",
-            "descripcion": "",
+            "nombre": "",
+            "descripcion": "Canto con inglete y media caña Superior o Inferior",
             "archivo": "05.png"
           },
           {
-            "nombre": "Canto en regrueso invisible con cuarto de caña superior",
-            "descripcion": "",
+            "nombre": "",
+            "descripcion": "Canto en regrueso invisible con cuarto de caña superior",
             "archivo": "06.png"
           },
           {
-            "nombre": "Canto en regrueso con media caña superior y recto",
-            "descripcion": "",
+            "nombre": "",
+            "descripcion": "Canto en regrueso con media caña superior y recto",
             "archivo": "07.png"
           },
           {
-            "nombre": "Canto en regrueso invisible con inglete superior o inferior",
-            "descripcion": "",
+            "nombre": "",
+            "descripcion": "Canto en regrueso invisible con inglete superior o inferior",
             "archivo": "08.png"
           },
           {
-            "nombre": "Canto en regrueso invisible",
-            "descripcion": "",
+            "nombre": "",
+            "descripcion": "Canto en regrueso invisible",
             "archivo": "09.png"
           },
           {
-            "nombre": "Canto regrueso en inglete",
-            "descripcion": "",
+            "nombre": "",
+            "descripcion": "Canto regrueso en inglete",
             "archivo": "10.png"
           },
           {
-            "nombre": "Canto Recto",
-            "descripcion": "",
+            "nombre": "",
+            "descripcion": "Canto Recto",
             "archivo": "11.png"
           }
         ]
@@ -1848,249 +1848,251 @@
         "tituloSeccion": "Bachas Johnson",
         "path": "/bachas",
         "productos": [
-          {
-            "nombre": "",
-            "descripcion": "",
-            "archivo": "01.jpg"
-          },
-          {
-            "nombre": "",
-            "descripcion": "",
-            "archivo": "02.jpg"
-          },
-          {
-            "nombre": "",
-            "descripcion": "",
-            "archivo": "04.jpg"
-          },
-          {
-            "nombre": "",
-            "descripcion": "",
-            "archivo": "05.jpg"
-          },
-          {
-            "nombre": "",
-            "descripcion": "",
-            "archivo": "06.jpg"
-          },
+
           {
             "nombre": "AXA D78A Esquinera",
-            "descripcion": "78 cm X 78 cm X 18 cm ",
+            "descripcion": "78 cm &times; 78 cm &times; 18 cm ",
             "archivo": "pil_axad78a.jpg"
           },
           {
             "nombre": "AXA SI78A Esquinera",
-            "descripcion": "78 cm X 78 cm X 18 cm",
+            "descripcion": "78 cm &times; 78 cm &times; 18 cm",
             "archivo": "pil_axasi78a.jpg"
           },
+            {
+                "nombre": "X28 Esquinera",
+                "descripcion": "61,5 cm &times 61,5 cm &times; 15 cm",
+                "archivo": "pil_x28.jpg"
+            },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "C28 - C28/18",
+            "descripcion": "59 cm &times; 34 cm &times; 15 cm ó 18 cm",
             "archivo": "pil_c28.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "C37 - C37 CR - C37/18 - C37/18 CR",
+            "descripcion": "70 cm &times; 37 cm &times; 15 cm ó 18 cm",
             "archivo": "pil_c37.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "DN 1 - DN 1 A",
+            "descripcion": "DN 1: 78 cm &times; 37 cm &times 20 cm <br/> DN 1 A: 84 cm &times; 42,8 cm &times; 20 cm",
             "archivo": "pil_dn1.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "DN2 - DN2 CR",
+            "descripcion": "38 cm &times 37 cm &times; 20 cm",
             "archivo": "pil_dn2.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "E28 - E28 CR",
+            "descripcion": "34 cm &times 28,5 cm &times; 15 cm",
             "archivo": "pil_e28.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "E37 - E37 CR - E37/18 - E37/18 CR",
+            "descripcion": "37 cm &times 34 cm &times; 15 cm ó 18 cm",
             "archivo": "pil_e37.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "E44 - E44 CR - E44/18 - ",
+            "descripcion": "44 cm &times 34 cm &times; 15 cm ó 18 cm",
             "archivo": "pil_e44.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "E50/18 - E50/18 CR",
+            "descripcion": "50 cm &times 40 cm &times; 18 cm",
             "archivo": "pil_e50-18.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "E55",
+            "descripcion": "50 cm &times 36 cm &times; 24 cm",
             "archivo": "pil_e55.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "E60 - E60 CR - E60 A",
+            "descripcion": "E60 - E60 CR: 60 cm &times; 37 cm &times 20 cm <br/> E60 A: 68,3 cm &times; 44,5 cm &times; 20 cm",
             "archivo": "pil_e60.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "F37",
+            "descripcion": "78 cm &times 37 cm &times; 20 cm",
             "archivo": "pil_f37.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "G50",
+            "descripcion": "50 cm &times 40 cm &times; 26 cm",
             "archivo": "pil_g50.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "Glaciar J97",
+            "descripcion": "97 cm &times 37 cm &times; 20 cm",
             "archivo": "pil_glaciar-j97.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "Hydra J107 A",
+            "descripcion": "107 cm &times 43,5 cm &times; 18 cm",
             "archivo": "pil_hydra.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "Lakar J96",
+            "descripcion": "96,5 cm &times 37 cm &times; 20 cm",
             "archivo": "pil_lakar-j96.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "LN 50",
+            "descripcion": "50 cm &times 40 cm &times; 25 cm",
             "archivo": "pil_lavadero_2.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "Luxor SI85 A",
+            "descripcion": "85,5 cm &times 48,2 cm &times; 21 cm",
             "archivo": "pil_luxor-si85-a.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "Luxor SI85 STA",
+            "descripcion": "85,5 cm &times 48,2 cm &times; 21 cm",
             "archivo": "pil_luxor-si85-sta.jpg"
           },
+            {
+                "nombre": "Luxor Compact Si71 A ",
+                "descripcion": "71 cm &times 48,2 cm &times; 21 cm",
+                "archivo": "pil_si71a.jpg"
+            },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "Luxor Compact SI71 STA",
+            "descripcion": "71 cm &times 48,2 cm &times; 21 cm",
             "archivo": "pil_luxorcompact.jpg"
           },
+            {
+                "nombre": "Baly 340 L - Baly 340 L Pex",
+                "descripcion": "&Oslash; 34 cm &times; 14 cm",
+                "archivo": "01.jpg"
+            },
+            {
+                "nombre": "O 250 L",
+                "descripcion": "&Oslash; 25 cm &times; 12 cm",
+                "archivo": "02.jpg"
+            },
+            {
+                "nombre": "O 250 M",
+                "descripcion": "&Oslash; 25 cm &times; 12 cm",
+                "archivo": "04.jpg"
+            },
+            {
+                "nombre": "O 300 L",
+                "descripcion": "&Oslash; 30 cm &times; 13,5 cm",
+                "archivo": "05.jpg"
+            },
+            {
+                "nombre": "O 300 M",
+                "descripcion": "&Oslash; 30 cm &times; 13,5 cm",
+                "archivo": "06.jpg"
+            },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "ON30 A",
+            "descripcion": "&Oslash; 30 cm &times; 14 cm",
             "archivo": "pil_o-30a.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "O 340 L",
+            "descripcion": "&Oslash; 34 cm &times; 14 cm",
             "archivo": "pil_o-340-l.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "O37 A - O37/15 A",
+            "descripcion": "&Oslash; 37 cm &times; 20 cm ó 15 cm",
             "archivo": "pil_o-37a.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "OV 330 L",
+            "descripcion": "33 cm &times 24 cm &times; 12 cm",
             "archivo": "pil_ov-330-l.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "OV 330 M",
+            "descripcion": "33 cm &times 24 cm &times; 12 cm",
             "archivo": "pil_ov-330-m.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "OV 370 L",
+            "descripcion": "37 cm &times 26,5 cm &times; 12 cm",
             "archivo": "pil_ov-370-l.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "OV 370 M",
+            "descripcion": "37 cm &times 26,5 cm &times; 12 cm",
             "archivo": "pil_ov-370-m.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "OV 440 L",
+            "descripcion": "44 cm &times 27,5 cm &times; 13 cm",
             "archivo": "pil_ov-440-l.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "OV 440 M",
+            "descripcion": "44 cm &times 27,5 cm &times; 13 cm",
             "archivo": "pil_ov-440-m.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "Q 085 A",
+            "descripcion": "85,5 cm &times 48,2 cm &times; 17,5 cm",
             "archivo": "pil_qo85a.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "Q 084 A",
+            "descripcion": "83,8 cm &times 55,9 cm &times; 17,5 cm",
             "archivo": "pil_quadra-q84-a.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "QB 40",
+            "descripcion": "40 cm &times 34 cm &times; 17,5 cm + 40 cm &times 34 cm &times; 3 cm",
             "archivo": "pil_quadra-qb-40.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "Q 40 - Q 40 CR",
+            "descripcion": "40 cm &times; 34 cm &times 17,5 cm <br/> Para conformar una pileta doble, se pueden utilizar dos piletas Q 40",
             "archivo": "pil_quadraq40.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "R 37 - R37 CR - R37/18 - R37/18 CR",
+            "descripcion": "63 cm &times; 34 cm &times; 15 cm ó 18 cm",
             "archivo": "pil_r37.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "R63 - R63 CR - R63/18 - R63/18 CR",
+            "descripcion": "64 cm &times; 37 cm &times; 15 cm ó 18 cm",
             "archivo": "pil_r63.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
-            "archivo": "pil_si71a.jpg"
-          },
-          {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "T34 - T34/18",
+            "descripcion": "34 cm &times; 23,5 cm &times; 14 cm ó 18 cm",
             "archivo": "pil_t34.jpg"
           },
+
           {
-            "nombre": "",
-            "descripcion": "",
-            "archivo": "pil_x28.jpg"
-          },
-          {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "ZN 52/18 - ZN 52/18 A CR",
+            "descripcion": "57,8 cm &times 37,8 cm &times; 18 cm",
             "archivo": "pil_z52-18.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "Z52 - Z52 CR - Z52/18 - Z52/18 CR",
+            "descripcion": "52 cm &times 32 cm &times; 15 cm ó 18 cm",
             "archivo": "pil_z52.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "Zara D84 A",
+            "descripcion": "83,5 cm &times 47 cm &times; 18 cm",
             "archivo": "pil_zara_1.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "Zara SI84 A",
+            "descripcion": "83,5 cm &times 47 cm &times; 18 cm",
             "archivo": "pil_zara_2.jpg"
           },
           {
-            "nombre": "",
-            "descripcion": "",
+            "nombre": "Zina Z84 A",
+            "descripcion": "83,8 cm &times 55,9 cm &times; 18 cm",
             "archivo": "pil_ziniaz84a.jpg"
           }
         ]
