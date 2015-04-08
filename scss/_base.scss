@@ -84,9 +84,7 @@ body {
     margin: 0 5%;
 }
 
-
-
- .loader{
+ .loader {
         margin: 0 auto;
         height: 20em;
         width: 20%;
@@ -95,11 +93,9 @@ body {
         display: block;
     }
 
-    /*
-      Set the color of the icon
-    */
+    // Set the color of the icon
     svg path,
-    svg rect{
+    svg rect {
         fill: #2B6FD1;
     }
 
@@ -117,8 +113,8 @@ body {
     a {
         background: url(../img/header-logo.png) center center;
         display: block;
-        width: 200px;
-        height: 120px;
+        width: 230px;
+        height: 130px;
         margin: 0 auto;
       }
 }
@@ -134,7 +130,7 @@ body {
     //background-color: darken($light-grey, 5%);
     border: none;
     
-    option{
+    option {
         padding: 0.5em 1em;
     }
 }
@@ -458,7 +454,7 @@ input[type="submit"] {
  * ============================== */
 
 #footer {
-	  border-top: 2px solid $blue;
+    border-top: 2px solid $blue;
     background: $light-grey;
     color: $grey;
     font-size: 0.875em;
@@ -477,6 +473,18 @@ input[type="submit"] {
     p {
         margin: 0;
     }
+    
+    .social-facebook {
+        float: left;
+        font: 0/0;
+        display: block;
+        width: 16px;
+        height: 16px;
+    }
+    
+        .social-facebook:hover {
+            opacity: 0.8;
+        }
 }
 
 /* IE Fixes */

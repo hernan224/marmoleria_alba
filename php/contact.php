@@ -6,7 +6,7 @@ URL: http://www.bitrepository.com/
 
 //include 'config.php';
 
-define("WEBMASTER_EMAIL", 'info@hernanzubiri.com.ar');
+define("WEBMASTER_EMAIL", 'ab@imotionconsulting.com.ar');
 
 error_reporting (E_ALL ^ E_NOTICE);
 
