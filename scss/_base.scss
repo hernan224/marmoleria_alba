@@ -280,7 +280,10 @@ body {
   .caption{
     position: absolute;
     z-index: 250;
-    top: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
     padding: 1em;
     opacity: 0;
     transition: all 0.3s ease;
@@ -309,6 +312,18 @@ body {
     &:before{
       opacity: 0.75;
       transition: all 0.3s ease;
+    }
+  }
+
+  .thmb--img{
+    background-size : contain;
+    background-position : center center;
+    background-repeat : no-repeat;
+    height : 200px;
+    width : 200px;
+
+    &.img_cover{
+      background-size : cover;
     }
   }
 }

@@ -28,7 +28,7 @@
     <div class="thumb-container" dir-paginate="producto in catalogo.productos | itemsPerPage: 20">
         <a href="" ng-click="mostrarProducto(catalogo.urlGeneral + producto.archivo, '<h5>'+producto.nombre+'</h5>'+producto.descripcion)" class="thumbnail" >
 
-          <img back-img="{{catalogo.urlGeneral + producto.archivo}}" alt="" class="img-responsive" />
+          <img back-img="{{catalogo.urlGeneral + producto.archivo}}" alt="" class="img-responsive thmb--img" ng-class="{ img_cover: isCover()}" />
 
             <!--<span class="foto-producto" back-img="{{catalogo.urlGeneral + producto.archivo}}"></span>-->
 

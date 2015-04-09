@@ -127,7 +127,17 @@ marmoleriaApp.controller("CatalogoCtrl", function ($scope, $location, $routePara
         return testActivoService.testUrl(viewLocation, indice);
     };
 
-
+    $scope.isCover = function () {
+        if (($scope.subSeccion.tituloSeccion == 'Mármoles importados') ||
+            ($scope.subSeccion.tituloSeccion == 'Granitos Nacionales') ||
+            ($scope.subSeccion.tituloSeccion == 'Granitos Importados') ||
+            ($scope.subSeccion.tituloSeccion == 'Pofidos') ||
+            ($scope.subSeccion.tituloSeccion == 'Cuarzos')){
+            return true;
+        }else {
+            return false;
+        }
+    };
 
     $scope.mostrarProducto = function(url, titulo){
 
@@ -297,12 +307,7 @@ marmoleriaApp.directive('backImg', function(){
     return function(scope, element, attrs){
         var url = attrs.backImg;
         element.css({
-            'background-image': 'url(' + url +')',
-            'background-size' : 'contain',
-            'background-position' : 'center center',
-            'background-repeat' : 'no-repeat',
-            'height' : '200px',
-            'width' : '200px'
+            'background-image': 'url(' + url +')'
 
         });
     };
