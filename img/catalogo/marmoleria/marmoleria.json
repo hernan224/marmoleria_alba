@@ -341,8 +341,8 @@
                 {"nombre":"",   "descripcion":"",   "archivo":"11.png"}
             ]},
 
-        {"nombre":"Porfidios",
-            "path" : "/porfidios",
+        {"nombre":"Porfidos",
+            "path" : "/porfidos",
             "archivos": [
                 {"nombre":"",   "descripcion":"",   "archivo":"01-porfidio_rojo.jpg"},
                 {"nombre":"",   "descripcion":"",   "archivo":"02-porfidio_nadur.jpg"},

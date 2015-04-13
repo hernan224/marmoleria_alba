@@ -127,7 +127,6 @@ body {
     padding: 0.5em 1em;
     color: #2B6FD1;
     font-weight: 700;
-    //background-color: darken($light-grey, 5%);
     border: none;
     
     option {
@@ -490,9 +489,11 @@ input[type="submit"] {
     }
     
     .social-facebook {
+        background: url(../img/social-facebook.png) no-repeat center center;
         float: left;
-        font: 0/0;
+        font-size: 0;
         display: block;
+        margin: 5px 0 0 10px;
         width: 16px;
         height: 16px;
     }

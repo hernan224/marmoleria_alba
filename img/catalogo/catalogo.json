@@ -1582,23 +1582,23 @@
         ]
       },
       {
-        "tituloSeccion": "Pofidos",
-        "path": "/porfidios",
+        "tituloSeccion": "Porfidos",
+        "path": "/porfidos",
         "productos": [
           {
             "nombre": "Porfido Rojo",
             "descripcion": "",
-            "archivo": "01-porfidio_rojo.jpg"
+            "archivo": "porfidos-rojo.jpg"
           },
           {
             "nombre": "Porfido Nadur",
             "descripcion": "",
-            "archivo": "02-porfidio_nadur.jpg"
+            "archivo": "porfidos-nadur.jpg"
           },
           {
             "nombre": "Porfido Gris",
             "descripcion": "",
-            "archivo": "03-porfidio_gris.jpg"
+            "archivo": "porfidos-gris.jpg"
           }
         ]
       },
