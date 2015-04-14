@@ -930,97 +930,112 @@
           {
             "nombre": "Marron Orcollano",
             "descripcion": "",
-            "archivo": "01-marron_orcollano.jpg"
-          },
-          {
-            "nombre": "Azul Mara",
-            "descripcion": "",
-            "archivo": "02-azul_mara.jpg"
-          },
-          {
-            "nombre": "Azul Andes",
-            "descripcion": "",
-            "archivo": "03-azul_andres.jpg"
-          },
-          {
-            "nombre": "Rosa Mara",
-            "descripcion": "",
-            "archivo": "04-rpsa_mara.jpg"
-          },
-          {
-            "nombre": "Rojo Orcollano",
-            "descripcion": "",
-            "archivo": "05-rojo_orcollano.jpg"
-          },
-          {
-            "nombre": "Rojo Imperial",
-            "descripcion": "",
-            "archivo": "06-rojo_imperial.jpg"
-          },
-          {
-            "nombre": "Sierra Chica",
-            "descripcion": "",
-            "archivo": "07-sierra_chica.jpg"
-          },
-          {
-            "nombre": "Negro Boreal",
-            "descripcion": "",
-            "archivo": "08-negro_boreal.jpg"
-          },
-          {
-            "nombre": "Rojo Dragon",
-            "descripcion": "",
-            "archivo": "09-rojo_dragon.jpg"
-          },
-          {
-            "nombre": "Rosa del Salto",
-            "descripcion": "",
-            "archivo": "10-rosa_del_salto.jpg"
-          },
-          {
-            "nombre": "Gris Mara",
-            "descripcion": "",
-            "archivo": "11-gris_mara.jpg"
+            "archivo": "granito-nacional-marron-orcollano.jpg"
           },
           {
             "nombre": "Marron Habano",
             "descripcion": "",
-            "archivo": "12-marron_habano.jpg"
+            "archivo": "granito-nacional-marron-habano.jpg"
           },
           {
-            "nombre": "Gran Felipe",
+            "nombre": "Azul Mara",
             "descripcion": "",
-            "archivo": "13-gran_felipe.jpg"
+            "archivo": "granito-nacional-azul-mara.jpg"
           },
           {
-            "nombre": "Beige Mara",
+            "nombre": "Azul Andes",
             "descripcion": "",
-            "archivo": "14-beige_mara.jpg"
+            "archivo": "granito-nacional-azul-andes.jpg"
           },
           {
-            "nombre": "Malambo Gold",
+            "nombre": "Rosa Mara",
             "descripcion": "",
-            "archivo": "15-malambo_gold.jpg"
+            "archivo": "granito-nacional-rosa-mara.jpg"
+          },
+          {
+            "nombre": "Rosa del Salto",
+            "descripcion": "",
+            "archivo": "granito-nacional-rosa-del-salto.jpg"
+          },
+          {
+            "nombre": "Rojo Orcollano",
+            "descripcion": "",
+            "archivo": "granito-nacional-rojo-orcollano.jpg"
+          },
+          {
+            "nombre": "Rojo Imperial",
+            "descripcion": "",
+            "archivo": "granito-nacional-rojo-imperial.jpg"
+          },
+          {
+            "nombre": "Rojo Dragon",
+            "descripcion": "",
+            "archivo": "granito-nacional-rojo-dragon.jpg"
+          },
+          {
+            "nombre": "Rojo Píncipe",
+            "descripcion": "",
+            "archivo": "granito-nacional-rojo-principe.jpg"
+          },
+          {
+            "nombre": "Rojomar",
+            "descripcion": "",
+            "archivo": "granito-nacional-rojomar.jpg"
+          },
+          {
+            "nombre": "Sierra Chica",
+            "descripcion": "",
+            "archivo": "granito-nacional-sierra-chica.jpg"
+          },
+          {
+            "nombre": "Negro Boreal",
+            "descripcion": "",
+            "archivo": "granito-nacional-negro-boreal.jpg"
+          },
+          {
+            "nombre": "Negro Córdoba",
+            "descripcion": "",
+            "archivo": "granito-nacional-negro-cordoba.jpg"
+          },
+          {
+            "nombre": "Gris Mara",
+            "descripcion": "",
+            "archivo": "granito-nacional-gris-mara.jpg"
           },
           {
             "nombre": "Gris Perla",
             "descripcion": "",
-            "archivo": "16-gris_perla.jpg"
+            "archivo": "granito-nacional-gris-perla.jpg"
+          },
+          {
+            "nombre": "Gran Felipe",
+            "descripcion": "",
+            "archivo": "granito-nacional-gran-felipe.jpg"
+          },
+          {
+            "nombre": "Beige Mara",
+            "descripcion": "",
+            "archivo": "granito-nacional-beige-mara.jpg"
           },
           {
             "nombre": "Beige Puma",
             "descripcion": "",
-            "archivo": "17-beige_puma.jpg"
+            "archivo": "granito-nacional-beige-puma.jpg"
+          },
+          {
+            "nombre": "Malambo Gold",
+            "descripcion": "",
+            "archivo": "granito-nacional-malambo-gold.jpg"
           },
           {
             "nombre": "Labradorita",
             "descripcion": "",
-            "archivo": "18-labradorita.jpg"
+            "archivo": "granito-nacional-labradorita.jpg"
           },
           {
             "nombre": "Blanco Mara",
             "descripcion": "",
-            "archivo": "19-blanco_mara.jpg"
+            "archivo": "granito-nacional-blanco-mara.jpg"
           }
         ]
       },
@@ -1031,553 +1046,588 @@
           {
             "nombre": "Verde Ecologico",
             "descripcion": "",
-            "archivo": "01-verde-ecologico.jpg"
+            "archivo": "granitos-importados-verde-ecologico.jpg"
           },
           {
             "nombre": "Verde Pavon",
             "descripcion": "",
-            "archivo": "02-verde_pavon.jpg"
+            "archivo": "granitos-importados-verde-pavon.jpg"
           },
           {
             "nombre": "Verde Maritaca",
             "descripcion": "",
-            "archivo": "03-verde_maritaca.jpg"
+            "archivo": "granitos-importados-verde-maritaca.jpg"
           },
           {
             "nombre": "Verde Buterfly",
             "descripcion": "",
-            "archivo": "04-verde_buterfly.jpg"
+            "archivo": "granitos-importados-verde-buterfly.jpg"
           },
           {
             "nombre": "Verde Labrador",
             "descripcion": "",
-            "archivo": "05-verde_labrador.jpg"
+            "archivo": "granitos-importados-verde-labrador.jpg"
           },
           {
             "nombre": "Verde Ubatuba",
             "descripcion": "",
-            "archivo": "06-verde_ubatuba.jpg"
+            "archivo": "granitos-importados-verde-ubatuba.jpg"
           },
           {
             "nombre": "Verde Peacock",
             "descripcion": "",
-            "archivo": "07-verde_peacock.jpg"
+            "archivo": "granitos-importados-verde-peacock.jpg"
           },
           {
             "nombre": "Verde Candeias",
             "descripcion": "",
-            "archivo": "08-verde_candeias.jpg"
+            "archivo": "granitos-importados-verde-candeias.jpg"
           },
           {
             "nombre": "Verde Esmeralda",
             "descripcion": "",
-            "archivo": "09-verde_esmeralda.jpg"
+            "archivo": "granitos-importados-verde-esmeralda.jpg"
+          },
+          {
+            "nombre": "Verde Flash",
+            "descripcion": "",
+            "archivo": "granitos-importados-verde-flash.jpg"
           },
           {
             "nombre": "Santa Cecilia",
             "descripcion": "",
-            "archivo": "10-santa_cecilia.jpg"
-          },
-          {
-            "nombre": "Giallo Renoir",
-            "descripcion": "",
-            "archivo": "11-giallo_renoir.jpg"
-          },
-          {
-            "nombre": "Cafe Imperial",
-            "descripcion": "",
-            "archivo": "12-cafe_imperial.jpg"
-          },
-          {
-            "nombre": "Giallo Monet",
-            "descripcion": "",
-            "archivo": "13-giallo_monet.jpg"
-          },
-          {
-            "nombre": "Ghibli",
-            "descripcion": "",
-            "archivo": "14-ghibili.jpg"
+            "archivo": "granitos-importados-santa-cecilia.jpg"
           },
           {
             "nombre": "Santa Cecilia Dark",
             "descripcion": "",
-            "archivo": "15-santa_cecilia_dark.jpg"
+            "archivo": "granitos-importados-santa-cecilia-dark.jpg"
           },
           {
-            "nombre": "Coral Spring",
+            "nombre": "Santa Helena",
             "descripcion": "",
-            "archivo": "16-coral_spring.jpg"
+            "archivo": "granitos-importados-santa-helena.jpg"
           },
           {
-            "nombre": "Marron Itabira",
+            "nombre": "Giallo Renoir",
             "descripcion": "",
-            "archivo": "17-marron_itabira.jpg"
+            "archivo": "granitos-importados-giallo-renoir.jpg"
           },
           {
-            "nombre": "Amarello",
+            "nombre": "Giallo Monet",
             "descripcion": "",
-            "archivo": "18-amarello.jpg"
-          },
-          {
-            "nombre": "Tan Brawn",
-            "descripcion": "",
-            "archivo": "19-tan_brawn.jpg"
-          },
-          {
-            "nombre": "Azul Brasil",
-            "descripcion": "",
-            "archivo": "20-azul_brasil.jpg"
-          },
-          {
-            "nombre": "New Venetian Gold",
-            "descripcion": "",
-            "archivo": "21-new_venetian_gold.jpg"
-          },
-          {
-            "nombre": "River White",
-            "descripcion": "",
-            "archivo": "22-river_white.jpg"
-          },
-          {
-            "nombre": "Blanco Romano",
-            "descripcion": "",
-            "archivo": "23-blanco_romano.jpg"
-          },
-          {
-            "nombre": "Negro Impala",
-            "descripcion": "",
-            "archivo": "24-negro_impala.jpg"
-          },
-          {
-            "nombre": "Blanco Kashimir",
-            "descripcion": "",
-            "archivo": "25-blanco_kashmir.jpg"
-          },
-          {
-            "nombre": "Blanco Siena",
-            "descripcion": "",
-            "archivo": "26-blanco_siena.jpg"
-          },
-          {
-            "nombre": "Blanco Paris",
-            "descripcion": "",
-            "archivo": "27-blanco_paris.jpg"
-          },
-          {
-            "nombre": "Blanco Itauna",
-            "descripcion": "",
-            "archivo": "28-blanco_itauna.jpg"
-          },
-          {
-            "nombre": "Blanco Dallas",
-            "descripcion": "",
-            "archivo": "29-blanco_dallas.jpg"
-          },
-          {
-            "nombre": "Rosa Cristal",
-            "descripcion": "",
-            "archivo": "30-rosa_cristal.jpg"
-          },
-          {
-            "nombre": "Marron Cristal",
-            "descripcion": "",
-            "archivo": "31-marron_cristal.jpg"
-          },
-          {
-            "nombre": "Mara Cristal",
-            "descripcion": "",
-            "archivo": "32-mara_cristal.jpg"
-          },
-          {
-            "nombre": "Tropical Wabe",
-            "descripcion": "",
-            "archivo": "33-tropical_wabe.jpg"
-          },
-          {
-            "nombre": "Sunny Gold",
-            "descripcion": "",
-            "archivo": "34-sunny_gold.jpg"
-          },
-          {
-            "nombre": "Labrador Azul",
-            "descripcion": "",
-            "archivo": "35-labrador_azul.jpg"
-          },
-          {
-            "nombre": "Ornamental",
-            "descripcion": "",
-            "archivo": "36-ornamental.jpg"
-          },
-          {
-            "nombre": "Rojo Multicolor",
-            "descripcion": "",
-            "archivo": "37-rojo_multicolor.jpg"
-          },
-          {
-            "nombre": "Veneciano",
-            "descripcion": "",
-            "archivo": "38-veneciano.jpg"
-          },
-          {
-            "nombre": "Negro Brasil Extra",
-            "descripcion": "",
-            "archivo": "39-negro_brasil_extra.jpg"
+            "archivo": "granitos-importados-giallo-monet.jpg"
           },
           {
             "nombre": "Giallo Antico",
             "descripcion": "",
-            "archivo": "40-giallo_antico.jpg"
+            "archivo": "granitos-importados-giallo-antico.jpg"
           },
           {
-            "nombre": "Estelar",
+            "nombre": "Cafe Imperial",
             "descripcion": "",
-            "archivo": "41-estelar.jpg"
+            "archivo": "granitos-importados-cafe-imperial.jpg"
           },
           {
-            "nombre": "Labrador Azul GT",
+            "nombre": "Ghibli",
             "descripcion": "",
-            "archivo": "42-librador_azul_gt.jpg"
+            "archivo": "granitos-importados-ghibli.jpg"
           },
           {
-            "nombre": "Negro Aracruz Extra",
+            "nombre": "Coral Spring",
             "descripcion": "",
-            "archivo": "43-negro_aracruz_extra.jpg"
+            "archivo": "granitos-importados-coral-spring.jpg"
           },
           {
-            "nombre": "Kinawa",
+            "nombre": "Marron Itabira",
             "descripcion": "",
-            "archivo": "44-kinawa.jpg"
+            "archivo": "granitos-importados-marron-itabira.jpg"
           },
           {
-            "nombre": "Negro Perlado",
+            "nombre": "Marron Cristal",
             "descripcion": "",
-            "archivo": "45-negro_perlado.jpg"
-          },
-          {
-            "nombre": "Negro San Gabriel",
-            "descripcion": "",
-            "archivo": "46-negro-san_gabriel.jpg"
-          },
-          {
-            "nombre": "Negro Uruguayo",
-            "descripcion": "",
-            "archivo": "47-negro_uruguayo.jpg"
-          },
-          {
-            "nombre": "Ocre Icarai",
-            "descripcion": "",
-            "archivo": "48-ocre_icarai.jpg"
-          },
-          {
-            "nombre": "Azul Tango",
-            "descripcion": "",
-            "archivo": "49-azul_tango.jpg"
-          },
-          {
-            "nombre": "Negro Chino",
-            "descripcion": "",
-            "archivo": "50-negro_chino.jpg"
-          },
-          {
-            "nombre": "Negro Indu",
-            "descripcion": "",
-            "archivo": "51-negro_indu.jpg"
+            "archivo": "granitos-importados-marron-cristal.jpg"
           },
           {
             "nombre": "Marron Bahia",
             "descripcion": "",
-            "archivo": "52-marron_bahia.jpg"
+            "archivo": "granitos-importados-marron-bahia.jpg"
+          },
+          {
+            "nombre": "Amarello",
+            "descripcion": "",
+            "archivo": "granitos-importados-amarello.jpg"
+          },
+          {
+            "nombre": "Tan Brawn",
+            "descripcion": "",
+            "archivo": "granitos-importados-tan-brawn.jpg"
+          },
+          {
+            "nombre": "Azul Brasil",
+            "descripcion": "",
+            "archivo": "granitos-importados-azul-brasil.jpg"
+          },
+          {
+            "nombre": "Azul Tango",
+            "descripcion": "",
+            "archivo": "granitos-importados-azul-tango.jpg"
           },
           {
             "nombre": "Azul Flash",
             "descripcion": "",
-            "archivo": "53-azul_flash.jpg"
+            "archivo": "granitos-importados-azul-flash.jpg"
+          },
+          {
+            "nombre": "Labrador Azul",
+            "descripcion": "",
+            "archivo": "granitos-importados-labrador-azul.jpg"
+          },
+          {
+            "nombre": "Labrador Azul GT",
+            "descripcion": "",
+            "archivo": "granitos-importados-labrador-azul-gt.jpg"
+          },
+          {
+            "nombre": "New Venetian Gold",
+            "descripcion": "",
+            "archivo": "granitos-importados-new-venetian-gold.jpg"
+          },
+          {
+            "nombre": "River White",
+            "descripcion": "",
+            "archivo": "granitos-importados-river-white.jpg"
+          },
+          {
+            "nombre": "Blanco Romano",
+            "descripcion": "",
+            "archivo": "granitos-importados-blanco-romano.jpg"
+          },
+          {
+            "nombre": "Blanco Kashimir",
+            "descripcion": "",
+            "archivo": "granitos-importados-blanco-kashmir.jpg"
+          },
+          {
+            "nombre": "Blanco Kashimir India",
+            "descripcion": "",
+            "archivo": "granitos-importados-blanco-kashmir-india.jpg"
+          },
+          {
+            "nombre": "Blanco Siena",
+            "descripcion": "",
+            "archivo": "granitos-importados-blanco-sienna.jpg"
+          },
+          {
+            "nombre": "Blanco Paris",
+            "descripcion": "",
+            "archivo": "granitos-importados-blanco-paris.jpg"
+          },
+          {
+            "nombre": "Blanco Itauna",
+            "descripcion": "",
+            "archivo": "granitos-importados-blanco-itauna.jpg"
+          },
+          {
+            "nombre": "Blanco Dallas",
+            "descripcion": "",
+            "archivo": "granitos-importados-blanco-dallas.jpg"
+          },
+          {
+            "nombre": "Negro Impala",
+            "descripcion": "",
+            "archivo": "granitos-importados-negro-impala.jpg"
+          },
+          {
+            "nombre": "Negro Brasil",
+            "descripcion": "",
+            "archivo": "granitos-importados-negro-brasil.jpg"
+          },
+          {
+            "nombre": "Negro Brasil Extra",
+            "descripcion": "",
+            "archivo": "granitos-importados-negro-brasil-extra.jpg"
+          },
+          {
+            "nombre": "Negro Aracruz Extra",
+            "descripcion": "",
+            "archivo": "granitos-importados-negro-aracruz-extra.jpg"
+          },
+          {
+            "nombre": "Negro Perlado",
+            "descripcion": "",
+            "archivo": "granitos-importados-negro-perlado.jpg"
+          },
+          {
+            "nombre": "Negro San Gabriel",
+            "descripcion": "",
+            "archivo": "granitos-importados-negro-san-gabriel.jpg"
+          },
+          {
+            "nombre": "Negro Uruguayo",
+            "descripcion": "",
+            "archivo": "granitos-importados-negro-uruguayo.jpg"
+          },
+          {
+            "nombre": "Negro Chino",
+            "descripcion": "",
+            "archivo": "granitos-importados-negro-chino.jpg"
+          },
+          {
+            "nombre": "Negro Hindú",
+            "descripcion": "",
+            "archivo": "granitos-importados-negro-hindu.jpg"
           },
           {
             "nombre": "Negro Zimbawe",
             "descripcion": "",
-            "archivo": "54-negro_zimbawe.jpg"
+            "archivo": "granitos-importados-negro-zimbawe.jpg"
           },
           {
             "nombre": "Negro Absoluto",
             "descripcion": "",
-            "archivo": "55-negro_azboluto.jpg"
+            "archivo": "granitos-importados-negro-absoluto.jpg"
           },
           {
-            "nombre": "Amarillo",
+            "nombre": "Black Pearl",
             "descripcion": "",
-            "archivo": "56-amarillo.jpg"
+            "archivo": "granitos-importados-black-pearl.jpg"
+          },
+          {
+            "nombre": "Rosa Cristal",
+            "descripcion": "",
+            "archivo": "granitos-importados-rosa-cristal.jpg"
+          },
+          {
+            "nombre": "Mara Cristal",
+            "descripcion": "",
+            "archivo": "granitos-importados-mara-cristal.jpg"
+          },
+          {
+            "nombre": "Tropical Wabe",
+            "descripcion": "",
+            "archivo": "granitos-importados-tropical-wabe.jpg"
+          },
+          {
+            "nombre": "Sunny Gold",
+            "descripcion": "",
+            "archivo": "granitos-importados-sunny-gold.jpg"
+          },
+          {
+            "nombre": "Ornamental",
+            "descripcion": "",
+            "archivo": "granitos-importados-ornamental.jpg"
+          },
+          {
+            "nombre": "Rojo Multicolor",
+            "descripcion": "",
+            "archivo": "granitos-importados-rojo-multicolor.jpg"
+          },
+          {
+            "nombre": "Veneciano",
+            "descripcion": "",
+            "archivo": "granitos-importados-veneciano.jpg"
+          },
+          {
+            "nombre": "Estelar",
+            "descripcion": "",
+            "archivo": "granitos-importados-estelar.jpg"
+          },
+          {
+            "nombre": "Kinawa",
+            "descripcion": "",
+            "archivo": "granitos-importados-kinawa.jpg"
+          },
+          {
+            "nombre": "Ocre Icarai",
+            "descripcion": "",
+            "archivo": "granitos-importados-ocre-icarai.jpg"
+          },
+          {
+            "nombre": "Amarillo Fiorito",
+            "descripcion": "",
+            "archivo": "granitos-importados-amarillo-fiorito.jpg"
           }
         ]
       },
       {
-        "tituloSeccion": "Mármoles importados",
+        "tituloSeccion": "Mármoles",
         "path": "/marmoles",
         "productos": [
           {
             "nombre": "New Beige",
             "descripcion": "",
-            "archivo": "01-new_beige.jpg"
+            "archivo": "marmoles-new-beige.jpg"
           },
           {
             "nombre": "Sivec",
             "descripcion": "",
-            "archivo": "02-sivec.jpg"
+            "archivo": "marmoles-sivec.jpg"
           },
           {
             "nombre": "Verde Alpes",
             "descripcion": "",
-            "archivo": "03-verde_alpes.jpg"
-          },
-          {
-            "nombre": "Estatuario",
-            "descripcion": "",
-            "archivo": "04-estatuario.jpg"
+            "archivo": "marmoles-verde-alpes.jpg"
           },
           {
             "nombre": "Verde Tinos",
             "descripcion": "",
-            "archivo": "05-verde_tinos.jpg"
-          },
-          {
-            "nombre": "Guatemala",
-            "descripcion": "",
-            "archivo": "06-guatemala.jpg"
-          },
-          {
-            "nombre": "Rojo Assiago",
-            "descripcion": "",
-            "archivo": "07-rojo_assiago.jpg"
-          },
-          {
-            "nombre": "Venatino",
-            "descripcion": "",
-            "archivo": "08-venatino.jpg"
-          },
-          {
-            "nombre": "Blanco Ecuador",
-            "descripcion": "",
-            "archivo": "09-blanco_ecuador.jpg"
-          },
-          {
-            "nombre": "Royal White",
-            "descripcion": "",
-            "archivo": "10-royal_white.jpg"
-          },
-          {
-            "nombre": "Rosso Verona",
-            "descripcion": "",
-            "archivo": "11-rojo_verona.jpg"
-          },
-          {
-            "nombre": "Dolomita",
-            "descripcion": "",
-            "archivo": "12-dolomita.jpg"
-          },
-          {
-            "nombre": "Rojo Levanto",
-            "descripcion": "",
-            "archivo": "13-rojo_levanto.jpg"
+            "archivo": "marmoles-verde-tinos.jpg"
           },
           {
             "nombre": "Verde Bosque",
             "descripcion": "",
-            "archivo": "14-verde_bosque.jpg"
+            "archivo": "marmoles-verde-bosque.jpg"
           },
           {
-            "nombre": "Rosa Alejandria",
+            "nombre": "Estatuario",
             "descripcion": "",
-            "archivo": "15-rojo_alejandria.jpg"
-          },
-          {
-            "nombre": "Venato",
-            "descripcion": "",
-            "archivo": "16-venato.jpg"
-          },
-          {
-            "nombre": "Rojo Lepanto",
-            "descripcion": "",
-            "archivo": "17-rojo_lepanto.jpg"
-          },
-          {
-            "nombre": "New York",
-            "descripcion": "",
-            "archivo": "18-new_york.jpg"
-          },
-          {
-            "nombre": "Calacata Crema",
-            "descripcion": "",
-            "archivo": "19-calacata_crema.jpg"
-          },
-          {
-            "nombre": "Rojo Coralito",
-            "descripcion": "",
-            "archivo": "20-rojo_coralito.jpg"
-          },
-          {
-            "nombre": "Cristal White Especial",
-            "descripcion": "",
-            "archivo": "21-cristal_white_especial.jpg"
-          },
-          {
-            "nombre": "Cristal White (Turco)",
-            "descripcion": "",
-            "archivo": "22f_1.jpg"
-          },
-          {
-            "nombre": "Calacata Oro",
-            "descripcion": "",
-            "archivo": "23f_1.jpg"
-          },
-          {
-            "nombre": "Rojo Alicante",
-            "descripcion": "",
-            "archivo": "24f_1.jpg"
-          },
-          {
-            "nombre": "Calacata",
-            "descripcion": "",
-            "archivo": "25f_1.jpg"
-          },
-          {
-            "nombre": "Thassos",
-            "descripcion": "",
-            "archivo": "26f_1.jpg"
-          },
-          {
-            "nombre": "Arabescato Fantastico",
-            "descripcion": "",
-            "archivo": "27f_1.jpg"
-          },
-          {
-            "nombre": "Faniello",
-            "descripcion": "",
-            "archivo": "28f_1.jpg"
-          },
-          {
-            "nombre": "Milas Lilac",
-            "descripcion": "",
-            "archivo": "29f_1.jpg"
-          },
-          {
-            "nombre": "Perlino",
-            "descripcion": "",
-            "archivo": "30f_1.jpg"
-          },
-          {
-            "nombre": "Carrara C",
-            "descripcion": "",
-            "archivo": "31f_1.jpg"
-          },
-          {
-            "nombre": "Crema Marfil",
-            "descripcion": "",
-            "archivo": "32f_1.jpg"
-          },
-          {
-            "nombre": "Rosa Portugues",
-            "descripcion": "",
-            "archivo": "33f_1.jpg"
-          },
-          {
-            "nombre": "Saint Denis",
-            "descripcion": "",
-            "archivo": "34f_1.jpg"
-          },
-          {
-            "nombre": "Blanco Pi",
-            "descripcion": "",
-            "archivo": "35f_1.jpg"
-          },
-          {
-            "nombre": "Carrara C/D",
-            "descripcion": "",
-            "archivo": "36f_1.jpg"
-          },
-          {
-            "nombre": "Rosa Perlino",
-            "descripcion": "",
-            "archivo": "37f_1.jpg"
-          },
-          {
-            "nombre": "Remigiato",
-            "descripcion": "",
-            "archivo": "38f_1.jpg"
-          },
-          {
-            "nombre": "Mugla White",
-            "descripcion": "",
-            "archivo": "39f_1.jpg"
+            "archivo": "marmoles-estatuario.jpg"
           },
           {
             "nombre": "Estatuario Venatino",
             "descripcion": "",
-            "archivo": "40f_1.jpg"
+            "archivo": "marmoles-estatuario-venatino.jpg"
           },
           {
-            "nombre": "Calacata Extra",
+            "nombre": "Guatemala",
             "descripcion": "",
-            "archivo": "41f_1.jpg"
+            "archivo": "marmoles-guatemala.jpg"
+          },
+          {
+            "nombre": "Rojo Assiago",
+            "descripcion": "",
+            "archivo": "marmoles-rojo-assiago.jpg"
+          },
+          {
+            "nombre": "Rojo Levanto",
+            "descripcion": "",
+            "archivo": "marmoles-rojo-levanto.jpg"
+          },
+          {
+            "nombre": "Rojo Lepanto",
+            "descripcion": "",
+            "archivo": "marmoles-rojo-lepanto.jpg"
+          },
+          {
+            "nombre": "Rojo Coralito",
+            "descripcion": "",
+            "archivo": "marmoles-rojo-coralito.jpg"
+          },
+          {
+            "nombre": "Rojo Alicante",
+            "descripcion": "",
+            "archivo": "marmoles-rojo-alicante.jpg"
+          },
+          {
+            "nombre": "Venatino",
+            "descripcion": "",
+            "archivo": "marmoles-venatino.jpg"
+          },
+          {
+            "nombre": "Blanco Ecuador",
+            "descripcion": "",
+            "archivo": "marmoles-blanco-ecuador.jpg"
+          },
+          {
+            "nombre": "Blanco Pi",
+            "descripcion": "",
+            "archivo": "marmoles-blanco-pi.jpg"
+          },
+          {
+            "nombre": "Royal White",
+            "descripcion": "",
+            "archivo": "marmoles-royal-white.jpg"
+          },
+          {
+            "nombre": "Rosso Verona",
+            "descripcion": "",
+            "archivo": "marmoles-rosso-verona.jpg"
+          },
+          {
+            "nombre": "Dolomita",
+            "descripcion": "",
+            "archivo": "marmoles-dolomita.jpg"
+          },
+          {
+            "nombre": "Rosa Alejandria",
+            "descripcion": "",
+            "archivo": "marmoles-rosa-alejandria.jpg"
+          },
+          {
+            "nombre": "Rosa Portugues",
+            "descripcion": "",
+            "archivo": "marmoles-rosa-portugues.jpg"
+          },
+          {
+            "nombre": "Rosa Perlino",
+            "descripcion": "",
+            "archivo": "marmoles-rosa-perlino.jpg"
           },
           {
             "nombre": "Rosa Noruego",
             "descripcion": "",
-            "archivo": "42f_1.jpg"
-          },
-          {
-            "nombre": "Carrara D",
-            "descripcion": "",
-            "archivo": "43f_1.jpg"
-          },
-          {
-            "nombre": "Arabescato",
-            "descripcion": "",
-            "archivo": "44f_1.jpg"
-          },
-          {
-            "nombre": "Botticino",
-            "descripcion": "",
-            "archivo": "45f_1.jpg"
-          },
-          {
-            "nombre": "Teca Madera",
-            "descripcion": "",
-            "archivo": "46f_1.jpg"
-          },
-          {
-            "nombre": "Perlato Svevo",
-            "descripcion": "",
-            "archivo": "47f_1.jpg"
-          },
-          {
-            "nombre": "Marron Bosque",
-            "descripcion": "",
-            "archivo": "48f_1.jpg"
-          },
-          {
-            "nombre": "Golden Cream",
-            "descripcion": "",
-            "archivo": "49f_1.jpg"
-          },
-          {
-            "nombre": "Galala",
-            "descripcion": "",
-            "archivo": "50f_1.jpg"
-          },
-          {
-            "nombre": "Giallo di Siena",
-            "descripcion": "",
-            "archivo": "51f_1.jpg"
+            "archivo": "marmoles-rosa-noruego.jpg"
           },
           {
             "nombre": "Rosa Tea",
             "descripcion": "",
-            "archivo": "54f_1.jpg"
+            "archivo": "marmoles-rosa-tea.jpg"
           },
           {
             "nombre": "Spring Rose",
             "descripcion": "",
-            "archivo": "55f_1.jpg"
+            "archivo": "marmoles-rosa-spring.jpg"
+          },
+          {
+            "nombre": "Venato",
+            "descripcion": "",
+            "archivo": "marmoles-venato.jpg"
+          },
+          {
+            "nombre": "New York",
+            "descripcion": "",
+            "archivo": "marmoles-new-york.jpg"
+          },
+          {
+            "nombre": "Cristal White Especial",
+            "descripcion": "",
+            "archivo": "marmoles-cristal-white-especial.jpg"
+          },
+          {
+            "nombre": "Cristal White (Turco)",
+            "descripcion": "",
+            "archivo": "marmoles-cristal-white-turco.jpg"
+          },
+          {
+            "nombre": "Calacata",
+            "descripcion": "",
+            "archivo": "marmoles-calacata.jpg"
+          },
+          {
+            "nombre": "Calacata Oro",
+            "descripcion": "",
+            "archivo": "marmoles-calacata-oro.jpg"
+          },
+          {
+            "nombre": "Calacata Extra",
+            "descripcion": "",
+            "archivo": "marmoles-calacata-extra.jpg"
+          },
+          {
+            "nombre": "Calacata Crema",
+            "descripcion": "",
+            "archivo": "marmoles-calacata-crema.jpg"
+          },
+          {
+            "nombre": "Thassos",
+            "descripcion": "",
+            "archivo": "marmoles-thassos.jpg"
+          },
+          {
+            "nombre": "Faniello",
+            "descripcion": "",
+            "archivo": "marmoles-faniello.jpg"
+          },
+          {
+            "nombre": "Milas Lilac",
+            "descripcion": "",
+            "archivo": "marmoles-milas-lilac.jpg"
+          },
+          {
+            "nombre": "Perlino",
+            "descripcion": "",
+            "archivo": "marmoles-perlino.jpg"
+          },
+          {
+            "nombre": "Carrara C",
+            "descripcion": "",
+            "archivo": "marmoles-carrara-c.jpg"
+          },
+          {
+            "nombre": "Carrara D",
+            "descripcion": "",
+            "archivo": "marmoles-carrara-d.jpg"
+          },
+          {
+            "nombre": "Carrara C/D",
+            "descripcion": "",
+            "archivo": "marmoles-carrara-c-d.jpg"
+          },
+          {
+            "nombre": "Crema Marfil",
+            "descripcion": "",
+            "archivo": "marmoles-crema-marfil.jpg"
+          },
+          {
+            "nombre": "Saint Denis",
+            "descripcion": "",
+            "archivo": "marmoles-saint-denis.jpg"
+          },
+          {
+            "nombre": "Remigiato",
+            "descripcion": "",
+            "archivo": "marmoles-remigiato.jpg"
+          },
+          {
+            "nombre": "Mugla White",
+            "descripcion": "",
+            "archivo": "marmoles-mugla-white.jpg"
+          },
+          {
+            "nombre": "Arabescato",
+            "descripcion": "",
+            "archivo": "marmoles-arabescato.jpg"
+          },
+          {
+            "nombre": "Arabescato Fantastico",
+            "descripcion": "",
+            "archivo": "marmoles-arabescato-fantastico.jpg"
+          },
+          {
+            "nombre": "Botticino",
+            "descripcion": "",
+            "archivo": "marmoles-botticino.jpg"
+          },
+          {
+            "nombre": "Teca Madera",
+            "descripcion": "",
+            "archivo": "marmoles-tecca-madera.jpg"
+          },
+          {
+            "nombre": "Perlato Svevo",
+            "descripcion": "",
+            "archivo": "marmoles-perlato-svevo.jpg"
+          },
+          {
+            "nombre": "Marron Bosque",
+            "descripcion": "",
+            "archivo": "marmoles-marron-bosque.jpg"
+          },
+          {
+            "nombre": "Golden Cream",
+            "descripcion": "",
+            "archivo": "marmoles-golden-cream.jpg"
+          },
+          {
+            "nombre": "Galala",
+            "descripcion": "",
+            "archivo": "marmoles-galala.jpg"
+          },
+          {
+            "nombre": "Giallo di Siena",
+            "descripcion": "",
+            "archivo": "marmoles-giallo-di-siena.jpg"
+          },
+          {
+            "nombre": "Coral Spring",
+            "descripcion": "",
+            "archivo": "marmoles-coral-spring.jpg"
+          },
+          {
+            "nombre": "Cuarcita Gris.jpg",
+            "descripcion": "",
+            "archivo": "marmoles-cuarcita-gris.jpg"
           }
         ]
       },
@@ -1848,7 +1898,6 @@
         "tituloSeccion": "Bachas Johnson",
         "path": "/bachas",
         "productos": [
-
           {
             "nombre": "AXA D78A Esquinera",
             "descripcion": "78 cm &times; 78 cm &times; 18 cm ",
@@ -1859,11 +1908,11 @@
             "descripcion": "78 cm &times; 78 cm &times; 18 cm",
             "archivo": "pil_axasi78a.jpg"
           },
-            {
-                "nombre": "X28 Esquinera",
-                "descripcion": "61,5 cm &times 61,5 cm &times; 15 cm",
-                "archivo": "pil_x28.jpg"
-            },
+          {
+            "nombre": "X28 Esquinera",
+            "descripcion": "61,5 cm &times 61,5 cm &times; 15 cm",
+            "archivo": "pil_x28.jpg"
+          },
           {
             "nombre": "C28 - C28/18",
             "descripcion": "59 cm &times; 34 cm &times; 15 cm ó 18 cm",
@@ -1954,41 +2003,41 @@
             "descripcion": "85,5 cm &times 48,2 cm &times; 21 cm",
             "archivo": "pil_luxor-si85-sta.jpg"
           },
-            {
-                "nombre": "Luxor Compact Si71 A ",
-                "descripcion": "71 cm &times 48,2 cm &times; 21 cm",
-                "archivo": "pil_si71a.jpg"
-            },
+          {
+            "nombre": "Luxor Compact Si71 A ",
+            "descripcion": "71 cm &times 48,2 cm &times; 21 cm",
+            "archivo": "pil_si71a.jpg"
+          },
           {
             "nombre": "Luxor Compact SI71 STA",
             "descripcion": "71 cm &times 48,2 cm &times; 21 cm",
             "archivo": "pil_luxorcompact.jpg"
           },
-            {
-                "nombre": "Baly 340 L - Baly 340 L Pex",
-                "descripcion": "&Oslash; 34 cm &times; 14 cm",
-                "archivo": "01.jpg"
-            },
-            {
-                "nombre": "O 250 L",
-                "descripcion": "&Oslash; 25 cm &times; 12 cm",
-                "archivo": "02.jpg"
-            },
-            {
-                "nombre": "O 250 M",
-                "descripcion": "&Oslash; 25 cm &times; 12 cm",
-                "archivo": "04.jpg"
-            },
-            {
-                "nombre": "O 300 L",
-                "descripcion": "&Oslash; 30 cm &times; 13,5 cm",
-                "archivo": "05.jpg"
-            },
-            {
-                "nombre": "O 300 M",
-                "descripcion": "&Oslash; 30 cm &times; 13,5 cm",
-                "archivo": "06.jpg"
-            },
+          {
+            "nombre": "Baly 340 L - Baly 340 L Pex",
+            "descripcion": "&Oslash; 34 cm &times; 14 cm",
+            "archivo": "01.jpg"
+          },
+          {
+            "nombre": "O 250 L",
+            "descripcion": "&Oslash; 25 cm &times; 12 cm",
+            "archivo": "02.jpg"
+          },
+          {
+            "nombre": "O 250 M",
+            "descripcion": "&Oslash; 25 cm &times; 12 cm",
+            "archivo": "04.jpg"
+          },
+          {
+            "nombre": "O 300 L",
+            "descripcion": "&Oslash; 30 cm &times; 13,5 cm",
+            "archivo": "05.jpg"
+          },
+          {
+            "nombre": "O 300 M",
+            "descripcion": "&Oslash; 30 cm &times; 13,5 cm",
+            "archivo": "06.jpg"
+          },
           {
             "nombre": "ON30 A",
             "descripcion": "&Oslash; 30 cm &times; 14 cm",
@@ -2069,7 +2118,6 @@
             "descripcion": "34 cm &times; 23,5 cm &times; 14 cm ó 18 cm",
             "archivo": "pil_t34.jpg"
           },
-
           {
             "nombre": "ZN 52/18 - ZN 52/18 A CR",
             "descripcion": "57,8 cm &times 37,8 cm &times; 18 cm",

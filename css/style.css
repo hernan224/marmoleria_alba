@@ -260,7 +260,7 @@ svg rect {
 
 .thumbnail {
   margin: 0;
-  padding: 0;
+  padding: 2px;
   border: none;
   border-radius: 0;
   position: relative;
@@ -452,9 +452,11 @@ input[type="submit"]:hover, input[type="submit"]:focus {
   margin: 0;
 }
 #footer .social-facebook {
+  background: url(../img/social-facebook.png) no-repeat center center;
   float: left;
-  font: 0/0;
+  font-size: 0;
   display: block;
+  margin: 5px 0 0 10px;
   width: 16px;
   height: 16px;
 }
@@ -573,7 +575,7 @@ input[type="submit"]:hover, input[type="submit"]:focus {
 
   #nav {
     display: block;
-    margin: 36px 0;
+    margin: 41px 0;
   }
   #nav li {
     display: inline-block;
@@ -583,6 +585,7 @@ input[type="submit"]:hover, input[type="submit"]:focus {
     font-family: Raleway, Helvetica, sans-serif;
     font-size: 1.125em;
     font-weight: 300;
+    padding: 10px;
   }
   #nav li:hover a, #nav li.active a {
     background-color: #e9e9e5;

@@ -128,7 +128,7 @@ marmoleriaApp.controller("CatalogoCtrl", function ($scope, $location, $routePara
     };
 
     $scope.isCover = function () {
-        if (($scope.subSeccion.tituloSeccion == 'Mármoles importados') ||
+        if (($scope.subSeccion.tituloSeccion == 'Mármoles') ||
             ($scope.subSeccion.tituloSeccion == 'Granitos Nacionales') ||
             ($scope.subSeccion.tituloSeccion == 'Granitos Importados') ||
             ($scope.subSeccion.tituloSeccion == 'Pofidos') ||
