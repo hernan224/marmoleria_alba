@@ -346,10 +346,14 @@ svg rect {
   transition: color 0.2s ease;
 }
 
+.empresa_img {
+  margin: 1rem auto;
+}
+
 /* FancyBox */
 .fancybox-close {
-  top: 0;
-  right: -36px;
+  top: -36px;
+  right: 0;
   background: none #2B6FD1;
   font-size: 36px;
   color: #FFFFFF;
@@ -670,6 +674,11 @@ input[type="submit"]:hover, input[type="submit"]:focus {
     float: right;
     width: auto;
     padding: 10px 20px;
+  }
+
+  .fancybox-close {
+    top: 0;
+    right: -36px;
   }
 
   /* Footer

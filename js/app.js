@@ -28,8 +28,8 @@ marmoleriaApp.config(function ($routeProvider) {
             //controller 	: 'mainController'
         })
         .when('/empresa', {
-            templateUrl : 'tmpl/empresa.html'
-            //controller 	: 'aboutController'
+            templateUrl : 'tmpl/empresa.html',
+            controller 	: 'EmpresaCtrl'
         })
         .when('/trabajos/:id', {
             templateUrl : 'tmpl/trabajos.html',
@@ -83,6 +83,17 @@ marmoleriaApp.controller("HeaderCtrl", function($rootScope, $scope, $location, t
       return testActivoService.testUrl(viewLocation, indice);
     };
 
+});
+
+marmoleriaApp.controller("EmpresaCtrl", function($scope){
+    $scope.fotosEmpresa = ['empresa-01.jpg', 'empresa-02.jpg', 'empresa-03.jpg', 'empresa-04.jpg', 'empresa-05.jpg', 'empresa-06.jpg']
+
+    $scope.mostrarProducto = function(url){
+        jQuery.fancybox.open({
+            href: url
+            //rel: rel
+        });
+    }
 });
 
 

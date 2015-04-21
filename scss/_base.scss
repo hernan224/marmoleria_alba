@@ -372,11 +372,15 @@ body {
   }
 }
 
+.empresa_img{
+  margin: 1rem auto;
+}
+
 /* FancyBox */
 
 .fancybox-close{
-  top: 0;
-  right: -36px;
+  top: -36px;
+  right: 0;
   background: none $blue;
   font-size: 36px;
   color: #FFFFFF;

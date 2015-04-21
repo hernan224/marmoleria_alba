@@ -16,6 +16,18 @@
                         <p>Oficio, dedicación y esfuerzo son virtudes que nos caracterizan y nos mantienen fieles a la trayectoria de tantos años y lideres en el mercado de Bahía Blanca, su zona de influencia y todo el sur Argentino. </p>
                     </section>
 
+                    <section class="fotos_empresa">
+                        <div class="row">
+
+                            <div class="col-md-4 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0" ng-repeat="foto in fotosEmpresa">
+                                <a href="" ng-click="mostrarProducto('img/empresa/'+foto)">
+                                    <img class="img-responsive empresa_img" ng-src="{{'img/empresa/'+foto}}" alt="La Empresa"/>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </section>
+
                 </div>
             </div>
 
